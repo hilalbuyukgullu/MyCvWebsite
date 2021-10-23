@@ -1,0 +1,111 @@
+.profile-img{
+    margin: -38px;
+    height: 144%;
+    width: 100%;
+}
+
+.card{
+    border: none;
+    margin: 5%;
+    background-color: #0757b0;
+    color: white;
+    padding: 2%;
+    width: 73%;
+    border: none;
+    margin: 4%;
+    background-color: #0757b0;
+    color: white;
+    padding: 2%;
+    width: 100%;
+    height: 217px;
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: 3px 4px 5px #cdcdcd;
+}
+
+.card-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.card h5{
+    text-align: center;
+    border-bottom: 1px solid;
+    padding-bottom: 6px;
+}
+
+.card h6{
+    display: contents;
+    text-decoration: underline
+}
+
+.ui.animated.button{
+    width: 37%;
+    border-radius: 5px;
+    margin-top: 9px;
+    color: white;
+    background-color: #ce5251;
+}
+.ui.animated.button:hover{
+    color: white;
+    background-color: #ce5251;
+}
+
+.ui.card{
+    width: 90% !important;
+    height: 220px;
+}
+
+.myproject{
+    background-image: url("./page.png");
+    background-repeat: no-repeat, repeat;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding-top: 10px;
+}
+
+
+.row h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+    padding-top: 26px;
+    font-weight: 900;
+    font-size: 35px;
+}
+
+@media only screen and (max-width: 600px) {
+    .ui.animated.button{
+        width: 50%;
+    }
+
+    .ui.card{
+        height: 256px;
+    }
+
+    
+    .myproject{
+        height: 1500px !important;
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {
+    .ui.animated.button{
+        width: 50%;
+    }
+
+    .ui.card{
+        height: 256px;
+    }
+
+    .myproject{
+        height: 950px;
+    }
+
+}
