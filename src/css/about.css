@@ -79,6 +79,7 @@ figure {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url("./page2.png");
 }
 
 .css-1u3bzj6-MuiFormControl-root-MuiTextField-root{
@@ -117,9 +118,12 @@ figure {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 10px;
-    padding-bottom: 40px;
+    padding: 40px 0;
     margin-bottom: auto;
+    margin-top: 0;
+    font-weight: 900;
+    font-size: 35px;
+    background-image: url("./page2.png");
 }
 
 .contact-form{
@@ -129,7 +133,8 @@ figure {
     align-items: center;
     box-shadow: 1px 0px 8px #c1c1c1;
     padding: 20px;
-    margin-bottom:50px
+    margin-bottom:50px;
+    background-color: #ffffff;
 }
 
 .send-button{
@@ -137,4 +142,30 @@ figure {
     justify-content: center;
     align-items: center;
     margin: 23px 15px;
+}
+
+.css-1cpso70{
+    margin: 30px 15px;
+}
+
+.css-9k7nvd{
+    color: #000000;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.css-9k7nvd:hover{
+    color: #000000;
+}
+
+/*footer*/
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    /* background-image: url(/static/media/page2.7f846179.png); */
+    color: #0755b2;
+    background-color:#000000;
 }

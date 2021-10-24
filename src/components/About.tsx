@@ -1,10 +1,10 @@
-import React from 'react'
-import "./css/about.css"
-import images from "./image/me.jpeg"
+import React from 'react';
+import images from "./me.jpeg";
+
 export default function About() {
   return (
     <>
-      <div className='row about'>
+      <div className='row about' id="#about">
         <div className='col-sm-12 col-md-5 hover01'>
           <figure><img alt="" src={images} className='profile' /></figure>
         </div>

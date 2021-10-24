@@ -1,7 +1,17 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
-export default function Header() {
+export default function Navbar() {
+
+  var myfun = function(ele:any){
+    let offsetTop  = document.getElementById("about")?.offsetTop;
+    var right = document.getElementById("#right");
+    window.scrollTo({
+      top: offsetTop === null ? offsetTop?-100: 0,
+        behavior: "smooth"
+    });
+}
+
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -13,8 +23,8 @@ export default function Header() {
             <div className="navbar-nav row">
             {/* <a className="nav-link title">HB</a> */}
               <NavLink className="nav-link menu-button col" activeClassName="active" aria-current="page" to="/">Home</NavLink>
-              <NavLink className="nav-link menu-button col" activeClassName="active" to="/about">Features</NavLink>
-              <NavLink className="nav-link menu-button col" activeClassName="active" to="/contact">Pricing</NavLink>
+              <NavLink className="nav-link menu-button col" activeClassName="active" to="/" onClick={myfun("about")}>About</NavLink>
+              <NavLink className="nav-link menu-button col" activeClassName="active" to="/contact">Contact</NavLink>
             </div>
           </div>
         </div>

@@ -66,6 +66,7 @@
     justify-content: center;
     align-items: baseline;
     padding-top: 10px;
+    padding: 0 50px;
 }
 
 
@@ -79,33 +80,35 @@
     font-size: 35px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 500px) {
     .ui.animated.button{
         width: 50%;
     }
-
     .ui.card{
         height: 256px;
     }
-
-    
     .myproject{
-        height: 1500px !important;
+        height: 1500px;
+        background-image: url("./page2.png");
     }
 
 }
 
-@media only screen and (max-width: 1000px) {
-    .ui.animated.button{
-        width: 50%;
-    }
-
-    .ui.card{
-        height: 256px;
-    }
-
+@media only screen and (min-width: 850px) {
     .myproject{
-        height: 950px;
+        height: 1000px !important;
+        background-image: url("./page2.png");
     }
 
 }
+
+
+@media only screen and (min-width: 1150px) {
+    .myproject{
+        height: 755px !important;
+    }
+
+}
+
+
+

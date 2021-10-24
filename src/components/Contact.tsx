@@ -1,6 +1,6 @@
-import { Button, TextField } from '@mui/material'
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { Button, TextField } from '@mui/material';
+import { Link } from 'react-router-dom';
 
 export default function Contact() {
   return (
@@ -15,9 +15,9 @@ export default function Contact() {
             <TextField id="message" label="Message" multiline rows={4} variant="outlined" />
             <div className='send-button'><Button variant="contained">Send</Button></div>
             <hr />
-            <p className="MuiTypography-root MuiTypography-body2 MuiTypography-alignLeft css-1cpso70">By clicking on "Send" you agree to our 
-            <a className="MuiBox-root css-9k7nvd" href="">Privacy Policy</a>, &nbsp;
-            <Link className="MuiBox-root css-9k7nvd" to="">Data Policy</Link> and 
+            <p className="MuiTypography-root MuiTypography-body2 MuiTypography-alignLeft css-1cpso70">By clicking on "Send" you agree to our &nbsp;
+            <Link className="MuiBox-root css-9k7nvd" to="">Privacy Policy</Link>, &nbsp;
+            <Link className="MuiBox-root css-9k7nvd" to="">Data Policy</Link> and  &nbsp;
             <Link className="MuiBox-root css-9k7nvd" to="">Cookie Policy</Link>.</p>
           </form>
         </div>

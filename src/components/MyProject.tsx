@@ -1,7 +1,6 @@
 import React from 'react'
 import { Button, Card, Icon } from 'semantic-ui-react';
-import "./css/myproject.css";
-import line from "./image/line.png";
+
 export default function MyProject() {
   return (
     <div className='row myproject'>
