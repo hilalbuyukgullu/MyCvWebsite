@@ -1,12 +1,11 @@
-import React from 'react'
 import Navbar from './Navbar'
-import logo from "./person.png"
+import person from "./person.png"
 import EmailIcon from '@mui/icons-material/Email';
 
 export default function Header() {
   return (
     <div>
-      <div className='background-img'>
+      <div className='background-img' id="Home">
         <Navbar />
         <div className="home-intro" >
           <div className="home-intro-text typewriter">
@@ -22,7 +21,7 @@ export default function Header() {
             </div>
           </div>
           <div>
-            <img src={logo} className="intro-img" alt=""></img>
+            <img src={person} className="intro-img" alt="person"></img>
           </div>
         </div>
       </div>

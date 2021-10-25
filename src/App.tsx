@@ -1,24 +1,25 @@
-
 import About from "./components/About";
 import MyProject from "./components/MyProject";
 import MySkill from "./components/MySkill";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import ScrollArrow from "./components/Scroll";
+import {Helmet} from "react-helmet";
 
-import "./css/about.css"
-import "./css/myproject.css";
-
-function App() {
+function App(props:any) {
   return (
     <>
-      <Header />
-      <About />
-      <MyProject />
-      <MySkill />
-      <Contact />
-      <Footer />
-
+      <Helmet>
+        <title>{props.location.hash.slice(1)}</title>
+      </Helmet>
+      <Header/>
+      <About/>
+      <MyProject/>
+      <MySkill/>
+      <Contact/>
+      <Footer/>
+      <ScrollArrow/>
     </>
   );
 }

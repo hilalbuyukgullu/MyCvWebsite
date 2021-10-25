@@ -4,7 +4,7 @@ import { Button, Card, Icon } from 'semantic-ui-react';
 export default function MyProject() {
   return (
     <div className='row myproject'>
-      <h1>My Project</h1>
+      <h1 id="MyProject">My Project</h1>
       <div className='col-sm-12 col-md-6 col-lg-4 card-item'>
         <Card color='red' href='#card-example-link-card'>
           <Card.Content header='JAVASCRIPT E-COMMERCE SITE' />
