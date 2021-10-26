@@ -6,6 +6,8 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 /*My css */
 import "./css/myCss.css"
 import 'semantic-ui-css/semantic.min.css'
+import 'material-components-web/dist/material-components-web.min.css';
+
 
 const router= 
 <Router>
