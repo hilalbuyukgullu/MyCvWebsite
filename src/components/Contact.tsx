@@ -1,32 +1,14 @@
-import { useState } from 'react';
 import { Button, TextField } from '@mui/material';
-import { Link } from 'react-router-dom';
 import * as Yup from 'yup';
-import { Field, Formik, useFormik } from 'formik';
+import { useFormik } from 'formik';
 
 export default function Contact() {
-  const [name, setName] = useState("")
-  const [surname, setSurname] = useState<string>("")
-  const [email, setEmail] = useState("")
-  const [message, setMessage] = useState("")
-
   const registerSchema = Yup.object().shape({
-    name: Yup.string().required("Name is required").min(2, "en az 2 karakter").max(30, "En fazla 30 karakter").trim(),
-    surname: Yup.string().required("Surname is required").min(2, "en az 2 karakter").max(30, "En fazla 30 karakter").trim(),
+    name: Yup.string().required("Name is required").min(2, "Name should be of minimum 2 characters length").max(20, "Name should be of maximum 20 characters length").trim(),
+    surname: Yup.string().required("Surname is required").min(2, "Surname should be of minimum 2 characters length").max(30, "Surname should be of maximum 20 characters length").trim(),
     mail: Yup.string().required("Email is required").email("Enter a valid email"),
-    message: Yup.string().required("Message is required").min(18, "en az 18").max(100, "en fazla 150"),
+    message: Yup.string().required("Message is required").min(10, "Message should be of minimum 10 characters length").max(100, "Message should be of maximum 100 characters length"),
   })
-
-  function fncSubmit(e: React.FormEvent<HTMLFormElement>) {
-    e.preventDefault();
-    const returnMessage = {
-      name: "",
-      surname: "",
-      mail: "",
-      message: ""
-    }
-    console.log('returnMessage :>> ', returnMessage);
-  }
 
   const formik = useFormik({
     initialValues: {
@@ -43,11 +25,6 @@ export default function Contact() {
 
   return (
     <>
-
-
-
-
-
       <h1 className="contact-h1" id="Contact">Contact Us</h1>
       <div className='contact col-12'>
         <div className='contact-form'>

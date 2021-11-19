@@ -1,6 +1,4 @@
-import React from 'react';
-import Chart from 'chart.js/auto';
-import {Bar} from 'react-chartjs-2';
+import { Bar } from 'react-chartjs-2';
 
 const data = {
   labels: ['ReactJS', 'Typescript', 'Javascript', 'Html', 'Sass'],
@@ -26,7 +24,7 @@ const data = {
   ],
 };
 
-const options:any = {
+const options: any = {
   indexAxis: 'y',
   transitions: {
     show: {
@@ -55,7 +53,7 @@ const options:any = {
       borderWidth: 0,
     },
   },
-  
+
   responsive: true,
   plugins: {
     legend: {
@@ -73,7 +71,7 @@ export default function MySkill() {
     <div className='about myskill'>
       <h1>My Skill</h1>
       <div className='myskill-charts'>
-      <Bar data={data} options={options}/>
+        <Bar data={data} options={options} />
       </div>
     </div>
   )

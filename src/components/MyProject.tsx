@@ -1,4 +1,3 @@
-import React from 'react'
 import { Button, Card, Icon } from 'semantic-ui-react';
 
 export default function MyProject() {
@@ -84,7 +83,6 @@ export default function MyProject() {
           </Card.Content>
         </Card>
       </div>
-
     </div>
   )
 }
