@@ -16,9 +16,113 @@ body {
 
 /*meadia secreen*/ 
 
+
+@media only screen and (max-width: 485px) {
+    .menu-button{
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .nav-div{
+        width: 350px !important;
+        margin: 0px !important;
+    }
+
+    .nav-link {
+        padding: 10px;
+        color: white !important;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        margin-left: 7px !important;
+    }
+
+    .navbar{
+        font-size: 14px;
+    }
+
+    .intro-border{
+        width: 190px !important;
+    }
+
+    .home-intro-mail{
+        width: 160px !important;
+        
+    }
+
+    .typewriter h1{
+        margin-top: 0px!important;
+    }
+
+    p:last-child {
+        font-size: 11px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .css-sghohy-MuiButtonBase-root-MuiButton-root {
+        width: 76% !important;
+    }
+
+    .background-img {
+        height: 440px !important;
+    }
+
+    .home-intro-text p{
+        font-size: 12px !important;
+    margin-top: 15px !important;
+    }
+
+    figure {
+        margin: 0 0 0 -6px !important;
+        margin-right: 47px !important;
+    }
+
+    .row h1{
+        margin-bottom: -6px;
+        font-size: 15px;
+    }
+
+    .mail-text{
+        font-size: 10px;
+        margin: 8px 7px 5px 1px !important;
+    }
+
+    .contact-form {
+        width: 450px !important;}
+
+     .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root{
+            left: 7px !important;
+    }
+
+    .css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+        margin: 14px !important;
+        width: 95% !important;
+        /* display: flex !important;
+        justify-content: center;
+        align-items: center; */
+        left: 73px;
+        }
+    
+
+    
+    .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+        width: 75% !important;
+    }
+
+    .profile{
+        margin-left: 40px;
+    }
+}
 /* header page*/
 
 @import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Comic+Neue&family=Dancing+Script&family=Roboto:wght@900&display=swap');
+
+i.icon{
+    margin-bottom: 12px !important;
+    color: white;
+}
 
 .navbar {
     width: 100% !important;
@@ -48,7 +152,7 @@ body::-webkit-scrollbar-thumb {
 .background-img {
     background-image: url("5744543.png");
     background-repeat: no-repeat, repeat;
-    height: 650px;
+    height: 720px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -101,6 +205,11 @@ body::-webkit-scrollbar-thumb {
     align-items: center;
     width: 94%;
     margin-top: 20px;
+    transition: font-size 500ms;
+}
+
+.intro-mailbox:hover, .home-intro-text p {
+    font-size: 15px;
 }
 
 .home-intro-text {
@@ -115,7 +224,8 @@ body::-webkit-scrollbar-thumb {
     margin-top: 39px;
     width: 95%;
     text-align: center;
-    font-size: 16px;
+    font-size: 17px;
+    line-height: 30px;
 }
 
 .home-intro-text h1 {
@@ -142,7 +252,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .home-intro-mail {
-    width: 260px;
+    width: 160px;
     border: 1px solid white;
     padding-left: 17px;
     background-color: #ce5251;
@@ -153,7 +263,7 @@ body::-webkit-scrollbar-thumb {
 
 .intro-border {
     background-color: #ce5251;
-    width: 268px;
+    width: 170px;
     height: 42px;
     display: flex;
     justify-content: center;
@@ -167,7 +277,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .intro-img {
-    width: 100%;
+    width: 120%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -186,8 +296,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .typewriter h1 {
-    font-size: 3vw;
-    width: 59%;
+    font-size: 51px;
+    width: 62%;
     font-family: monospace;
     overflow: hidden;
     border-right: .15em solid orange;
@@ -225,16 +335,33 @@ body::-webkit-scrollbar-thumb {
 
 @media only screen and (max-width: 600px) {
     .background-img {
-        height: 500px;
+        height: 550px;
     }
 
     .typewriter h1 {
-        margin-top: 45px;
+        margin-top: 50px !important;
         font-size: 5vw;
         width: 100%;
+        float: left;
+        margin-bottom: 10px;
     }
 
     .home-intro-text p {
+        font-size: 13px;
+        line-height: 1.7;
+    }
+
+    .intro-mailbox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 94%;
+        margin-top: 20px;
+        transition: font-size 500ms;
+    }
+
+    .nav-div {
+        width: 518px !important;
         font-size: 14px;
     }
 
@@ -255,6 +382,26 @@ body::-webkit-scrollbar-thumb {
             width: 100%
         }
     }
+
+    .background-img{
+        background-image: url("page3.png");
+    }
+
+    .about{
+        height: 990px !important;
+    }
+
+    .footer{
+        padding: 20px
+;
+    }
+    /* .myskill-charts{
+        width: 650px;
+        height: 350px;
+    } */
+
+
+
 }
 
 
@@ -269,10 +416,11 @@ body::-webkit-scrollbar-thumb {
     padding-top: 70px;
     padding-bottom: 70px;
     margin-bottom: auto;
+    height: 630px;
 }
 
 .about-col {
-    width: 45% !important;
+    width: 100% !important;
 }
 
 .about h1 {
@@ -307,10 +455,6 @@ figure {
 @media only screen and (max-width: 600px) {
     .about {
         justify-content: left;
-    }
-
-    p:last-child {
-        width: 229%;
     }
 }
 
@@ -447,24 +591,6 @@ figure {
 
 /**/
 
-@media only screen and (max-width: 500px) {
-    .nav-div{
-        width: 526px !important;
-    }
-    .nav-link {
-        padding: 10px;
-        color: white !important;
-        justify-content: center;
-        display: flex;
-        align-items: center;
-    }
-
-    .navbar{
-        font-size: 12px;
-    }
-
-}
-
 
 
 @media only screen and (min-width: 500px) {
@@ -481,9 +607,6 @@ figure {
         background-image: url("./page2.png");
     }
 
-    .background-img {
-        /* background-image: url("./page3.png"); */
-    }
 
 }
 
@@ -491,6 +614,10 @@ figure {
 @media only screen and (max-width: 850px) {
     .nav-div{
         width: 574px;
+    }
+
+    .background-img{
+        background-image: url("./page3.png") !important;
     }
 
 }
@@ -511,9 +638,9 @@ figure {
 
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 900px) {
     .background-img {
-        background: url("./page3.png");
+        background: url("./page3.png") !important;
     }
 
     /*deneme*/
@@ -522,14 +649,22 @@ figure {
     }
 
     .menu-button {
-        width: 88px;
+        width: 85px;
     }
 
     .home-intro {
         padding-top: 20px;
     }
 
+
 }
+
+/* @media only screen and (min-width: 1000px) {
+     .background-img {
+        background: url("./5744543.png");
+    } 
+} */
+
 
 
 /*contact us page*/
@@ -541,16 +676,23 @@ figure {
 }
 
 .css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
-
     display: block !important;
+    margin: 14px !important;
+    width: 95%;
 }
 
-.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
-    margin: 14px !important;
+.css-wb57ya-MuiFormControl-root-MuiTextField-root{
+    margin-top: 20px !important;
 }
+
+/* 
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root{
+    left: 60px !important;
+} */
+
 
 .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
-    width: 550px;
+    width: 100%;
 }
 
 .css-1kty9di-MuiFormLabel-root-MuiInputLabel-root {
@@ -598,10 +740,10 @@ figure {
 }
 
 .send-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 23px 15px;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 23px !important;
 }
 
 .css-1cpso70 {
@@ -631,7 +773,10 @@ figure {
     background-color: #000000;
 }
 
-
+.social-media-icon{
+    display: flex;
+    justify-content: end;
+}
 /*scroll*/
 
 .scrollTop {
@@ -662,4 +807,55 @@ figure {
     100% {
         opacity: 0.5;
     }
+}
+
+.effect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 19px;
+}
+
+.varrius a{
+    font-size: 25px;
+    margin: 10px;
+    padding: 10px;
+    transition: border 500ms, font-size 600ms;
+}
+
+.varrius a:hover{
+    font-size: 28px;
+    border: 1px dashed white;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.about h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    margin: 40px 0px 30px 0;
+}
+
+/*myskill*/
+
+.myskill-charts{
+    width: 61%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.myskill{
+    display: block;
+    justify-content: center;
+    padding: 4%;
+    background-color: black;
+    color: #fafdfd;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin-bottom: auto;
+    height: 100%;
 }
