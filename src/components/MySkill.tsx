@@ -70,8 +70,14 @@ export default function MySkill() {
   return (
     <div className='about myskill'>
       <h1>My Skill</h1>
-      <div className='myskill-charts'>
-        <Bar data={data} options={options} />
+      <div className="row">
+        <div className="col-1 col-sm-2 col-md-2 col-lg-2 col-xl-2"></div>
+        <div className="col-10 col-sm-8 col-md-8 col-lg-8 col-xl-8">
+          <div className='myskill-charts'>
+            <Bar data={data} options={options} />
+          </div>
+        </div>
+        <div className="col-1 col-sm-2 col-md-2 col-lg-2 col-xl-2"></div>
       </div>
     </div>
   )

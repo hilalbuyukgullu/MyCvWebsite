@@ -8,7 +8,7 @@ export default function About() {
         <div className='col-sm-12 col-md-5 hover01 col-12'>
           <figure><img alt="" src={myImages} className='profile' /></figure>
         </div>
-        <div className='col-sm-12 col-md-7 col-12'>
+        <div className='col-sm-12 col-md-6 col-12'>
           <h1>About Me</h1>
           <p>
             Hello, I'm Hilal. As I mentioned in the beginning part, I am a very new frontend developer.
@@ -22,7 +22,7 @@ export default function About() {
           </p>
           <h3>If you want to follow me<br/></h3>
           <div className="effect varrius">
-            <div className="buttons">
+            <div className="social-buttons">
               <a href="#" className="in" title="Join us on Twitter"><Icon className="linkedin" aria-hidden="true"></Icon></a>
               <a href="#" className="tw" title="Join us on Linked In"><Icon className="twitter" aria-hidden="true"></Icon></a>
               <a href="#" className="ggithub" title="Join us on Linked In"><Icon className="github" aria-hidden="true"></Icon></a>

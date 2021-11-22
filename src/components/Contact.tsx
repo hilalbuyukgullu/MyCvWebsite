@@ -25,57 +25,63 @@ export default function Contact() {
 
   return (
     <>
-      <h1 className="contact-h1" id="Contact">Contact Us</h1>
-      <div className='contact col-12'>
-        <div className='contact-form'>
-          <form onSubmit={formik.handleSubmit}>
-            <TextField
-              fullWidth
-              id="name"
-              name="name"
-              label="name"
-              value={formik.values.name}
-              onChange={formik.handleChange}
-              error={formik.touched.name && Boolean(formik.errors.name)}
-              helperText={formik.touched.name && formik.errors.name}
-            />
-            <TextField
-              fullWidth
-              id="surname"
-              name="surname"
-              label="surname"
-              value={formik.values.surname}
-              onChange={formik.handleChange}
-              error={formik.touched.surname && Boolean(formik.errors.surname)}
-              helperText={formik.touched.surname && formik.errors.surname}
-            />
-            <TextField
-              fullWidth
-              id="mail"
-              name="mail"
-              label="mail"
-              value={formik.values.mail}
-              onChange={formik.handleChange}
-              error={formik.touched.mail && Boolean(formik.errors.mail)}
-              helperText={formik.touched.mail && formik.errors.mail}
-            />
-            <TextField
-              fullWidth
-              id="message"
-              name="message"
-              label="message"
-              type="message"
-              multiline
-              rows={4}
-              value={formik.values.message}
-              onChange={formik.handleChange}
-              error={formik.touched.message && Boolean(formik.errors.message)}
-              helperText={formik.touched.message && formik.errors.message}
-            />
-            <Button color="primary" variant="contained" fullWidth type="submit" className='send-button'>
-              Send
-            </Button>
-          </form>
+      <div className='contact'>
+        <h1 className="contact-h1">Contact Us</h1>
+        <div className='row'>
+          <div className='col-1 col-sm-2 col-md-3 col-lg-3 col-xl-3'></div>
+          <div className='col-10 col-sm-8 col-md-6 col-lg-6 col-xl-6'>
+            <div className='contact-form'>
+              <form onSubmit={formik.handleSubmit}>
+                <TextField
+                  fullWidth
+                  id="name"
+                  name="name"
+                  label="name"
+                  value={formik.values.name}
+                  onChange={formik.handleChange}
+                  error={formik.touched.name && Boolean(formik.errors.name)}
+                  helperText={formik.touched.name && formik.errors.name}
+                />
+                <TextField
+                  fullWidth
+                  id="surname"
+                  name="surname"
+                  label="surname"
+                  value={formik.values.surname}
+                  onChange={formik.handleChange}
+                  error={formik.touched.surname && Boolean(formik.errors.surname)}
+                  helperText={formik.touched.surname && formik.errors.surname}
+                />
+                <TextField
+                  fullWidth
+                  id="mail"
+                  name="mail"
+                  label="mail"
+                  value={formik.values.mail}
+                  onChange={formik.handleChange}
+                  error={formik.touched.mail && Boolean(formik.errors.mail)}
+                  helperText={formik.touched.mail && formik.errors.mail}
+                />
+                <TextField
+                  fullWidth
+                  id="message"
+                  name="message"
+                  label="message"
+                  type="message"
+                  multiline
+                  rows={4}
+                  value={formik.values.message}
+                  onChange={formik.handleChange}
+                  error={formik.touched.message && Boolean(formik.errors.message)}
+                  helperText={formik.touched.message && formik.errors.message}
+                />
+                <Button color="primary" variant="contained" fullWidth type="submit" className='send-button'>
+                  Send
+                </Button>
+              </form>
+            </div>
+          </div>
+          <div className='col-1 col-sm-2 col-md-3 col-lg-3 col-xl-3'></div>
         </div>
       </div>
     </>
