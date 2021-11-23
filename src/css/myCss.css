@@ -2,7 +2,6 @@
     margin-right: 0px !important;
 }
 
-
 body {
     margin: 0;
     color: #2c2c2c;
@@ -14,58 +13,41 @@ body {
     background-color: #fff;
 }
 
-/*meadia secreen*/ 
+/*meadia secreen*/
 
 @media only screen and (max-width: 330px) {
-    .menu-button{
+    .menu-button {
         margin: 0px !important;
         padding: 0px !important;
     }
 
-    .nav-div{
+    .nav-div {
         width: 100% !important;
         margin: 0px !important;
     }
 }
 
 @media only screen and (max-width: 485px) {
-    .menu-button{
-        margin: 3px !important;
-        padding: 2px;
+    .menu-button {
+        margin: 1px !important;
+        padding: 9px !important;
+        font-size: 15px !important;
     }
 
-    .nav-div{
+    .nav-div {
         width: 100% !important;
         margin: 0px !important;
     }
 
-    /* .nav-link {
-        padding: 10px;
-        color: white !important;
-        justify-content: center;
-        display: flex;
-        align-items: center;
-        margin-left: 7px !important;
-    } */
-
-    .navbar{
+    .navbar {
         font-size: 14px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
-    /* .intro-border{
-        width: 190px !important;
-    } */
-
-    /* .home-intro-mail{
-        width: 160px !important;
-        
-    } */
-
-    .typewriter h1{
-        margin-top: 5px!important;
+    .typewriter h1 {
+        margin-top: 5px !important;
     }
 
     p:last-child {
@@ -80,12 +62,12 @@ body {
     }
 
     .background-img {
-        height: 440px !important;
+        height: auto !important;
     }
 
-    .home-intro-text p{
+    .home-intro-text p {
         font-size: 12px !important;
-    margin-top: 15px !important;
+        margin-top: 15px !important;
     }
 
     figure {
@@ -93,47 +75,35 @@ body {
         margin-right: 47px !important;
     }
 
-    .row h1{
+    .row h1 {
         margin-bottom: -6px;
         font-size: 15px;
     }
 
-    /* .mail-text{
-        font-size: 10px;
-        margin: 8px 7px 5px 1px !important;
-    } */
-
-    /* .contact-form {
-        width: 450px !important;} */
-
-     .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root{
-            left: 7px !important;
+    .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+        left: 7px !important;
     }
 
     .css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
         margin: 14px !important;
         width: 95% !important;
-        /* display: flex !important;
-        justify-content: center;
-        align-items: center; */
         left: 73px;
-        }
-    
+    }
 
-    
     .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
         width: 75% !important;
     }
 
-    .profile{
+    .profile {
         margin-left: 40px;
     }
 }
+
 /* header page*/
 
 @import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Comic+Neue&family=Dancing+Script&family=Roboto:wght@900&display=swap');
 
-i.icon{
+i.icon {
     margin-bottom: 12px !important;
     color: white;
 }
@@ -176,6 +146,10 @@ body::-webkit-scrollbar-thumb {
     width: 101vw;
 }
 
+/* .contact i {
+    color: blue !important;
+} */
+
 .nav-div {
     display: flex;
     justify-content: center;
@@ -201,7 +175,6 @@ body::-webkit-scrollbar-thumb {
     background: transparent !important;
 }
 
-
 .title {
 
     font-size: 26px;
@@ -223,19 +196,19 @@ body::-webkit-scrollbar-thumb {
     transition: font-size 500ms;
 }
 
-.mail-button{
+.mail-button {
     margin: 15px;
 }
 
-   /* mail icon */
-   i.icon {
-    color: #0057b2 !important;
+/* mail icon */
+i.icon {
+    color: white !important;
     display: flex !important;
 }
 
-/* .intro-mailbox:hover, .home-intro-text p {
-    font-size: 15px;
-} */
+i.mail {
+    color: blue !important;
+}
 
 .home-intro-text {
     width: 50%;
@@ -276,31 +249,6 @@ body::-webkit-scrollbar-thumb {
     border-radius: 50px;
 }
 
-/* .home-intro-mail {
-    width: 160px;
-    border: 1px solid white;
-    padding-left: 17px;
-    background-color: #ce5251;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
-
-/* .intro-border {
-    background-color: #ce5251;
-    width: 170px;
-    height: 42px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 15px;
-} */
-
-/* .mail-text {
-    margin: 9px 10px 5px 10px;
-    color: white;
-} */
-
 .intro-img {
     width: 120%;
     display: flex;
@@ -321,8 +269,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .typewriter h1 {
-    font-size: 51px;
-    width: 62%;
+    font-size: 49px;
+    width: 58%;
     font-family: monospace;
     overflow: hidden;
     border-right: .15em solid orange;
@@ -360,7 +308,7 @@ body::-webkit-scrollbar-thumb {
 
 @media only screen and (max-width: 600px) {
     .background-img {
-        height: 550px;
+        height: auto;
     }
 
     .typewriter h1 {
@@ -385,17 +333,13 @@ body::-webkit-scrollbar-thumb {
     }
 
     .nav-div {
-        width: 518px ;
+        width: 518px;
         font-size: 14px;
     }
 
     .intro-img {
         margin-top: 45px;
     }
-
-    /* .intro-border {
-        margin-top: -4px;
-    } */
 
     @keyframes typing {
         from {
@@ -407,24 +351,18 @@ body::-webkit-scrollbar-thumb {
         }
     }
 
-    .background-img{
+    .background-img {
         background-image: url("page3.png");
     }
 
-    .about{
-        height: 990px !important;
+    .about {
+        /* height: 990px !important; */
+        height: auto;
     }
 
-    .footer{
-        padding: 20px
-;
+    .footer {
+        padding: 20px;
     }
-    /* .myskill-charts{
-        width: 650px;
-        height: 350px;
-    } */
-
-
 
 }
 
@@ -440,11 +378,12 @@ body::-webkit-scrollbar-thumb {
     padding-top: 70px;
     padding-bottom: 70px;
     margin-bottom: auto;
-    height: 630px;
-    width: 101vw;
+    /* height: 630px; */
+    height: auto;
+    width: 102vw;
 }
 
-.social-buttons{
+.social-buttons {
     display: flex;
 }
 
@@ -497,6 +436,16 @@ figure {
 }
 
 /*My project page*/
+
+/*buton efect*/
+.ui.animated.button .hidden.content {
+    position: absolute;
+    width: 50% !important;
+}
+
+.ui.animated.button {
+    background-color: #ce5251 !important;
+}
 
 .profile-img {
     margin: -38px;
@@ -562,7 +511,7 @@ figure {
 .myproject {
     background-image: url("./page.png");
     background-repeat: no-repeat, repeat;
-    height: 650px;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: baseline;
@@ -570,7 +519,6 @@ figure {
     padding: 0 50px;
     width: 102%;
 }
-
 
 .row h1 {
     display: flex;
@@ -587,11 +535,6 @@ figure {
     margin: 0 !important;
     padding: 0 !important;
     display: block !important;
-
-}
-
-.collapse {
-    /* color: #212529; */
 
 }
 
@@ -636,32 +579,26 @@ figure {
         height: 1500px;
         background-image: url("./page2.png");
     }
-
-
 }
 
 
 @media only screen and (max-width: 850px) {
-    .nav-div{
+    .nav-div {
         width: 574px;
     }
 
-    .background-img{
+    .background-img {
         background-image: url("./page3.png") !important;
-    }
-
-    
-    .intro-img{
-        width: 85%;
-        margin-bottom: 50px;
-    }
-
-    .background-img{
         width: 102%;
         height: auto;
     }
 
-    .about{
+    .intro-img {
+        width: 85%;
+        margin-bottom: 50px;
+    }
+
+    .about {
         height: auto;
     }
 
@@ -669,7 +606,8 @@ figure {
         width: 100% !important;
         height: 281px;
     }
-    .myproject{
+
+    .myproject {
         height: auto;
         width: 103%;
     }
@@ -677,18 +615,18 @@ figure {
 }
 
 @media only screen and (max-width: 1025px) {
-       
-    .intro-img{
+
+    .intro-img {
         width: 85%;
         margin-bottom: 50px;
     }
 
-    .background-img{
+    .background-img {
         width: 102%;
         height: auto;
     }
 
-    .about{
+    .about {
         height: auto;
     }
 
@@ -696,23 +634,32 @@ figure {
         width: 100% !important;
         height: 281px;
     }
-    .myproject{
+
+    .myproject {
         height: auto;
     }
 
+    .typewriter h1 {
+        font-size: 46px;
+        width: 85%;
+        padding: 15px;
+    }
+
+    .home-intro {
+        margin-top: 35px;
+    }
 }
 
 @media only screen and (max-width: 540px) {
     .myproject {
-        /* height: 1000px !important; */
-        background-image: url("./page.png") ;
+        background-image: url("./page.png");
         height: auto;
         margin-bottom: -2px;
         background-repeat: repeat-y;
     }
 
     .ui.card {
-        width: 83% ;
+        width: 83%;
         height: auto;
     }
 
@@ -720,37 +667,35 @@ figure {
         width: 65%;
     }
 
-    .myskill{
+    .myskill {
         height: auto !important;
         width: 102%;
     }
 
     .typewriter h1 {
-            margin-top: 10px !important;
-            font-size: 26px !important;
-            width: 130% !important;
-            margin-bottom: 10px;
+        margin-top: 10px !important;
+        font-size: 26px !important;
+        width: 103% !important;
+        margin-bottom: 10px;
     }
 
-    /* .menu-button{
-        margin: 11px !important;
-        padding: 11px !important;
-    } */
-
-    .nav-div{
+    .nav-div {
         width: 100% !important;
         margin: 0px !important;
     }
 
-    .about{
+    .about {
         height: auto !important;
+    }
+
+    .menu-button {
+        width: 74px !important;
     }
 }
 
 
 @media only screen and (min-width: 850px) {
     .myproject {
-        /* height: 1000px !important; */
         background-image: url("./page.png");
         height: auto;
         margin-bottom: -2px;
@@ -762,7 +707,8 @@ figure {
 
 @media only screen and (min-width: 1150px) {
     .myproject {
-        height: 755px !important;
+        /* height: 755px !important; */
+        height: auto;
     }
 }
 
@@ -772,16 +718,14 @@ figure {
     }
 
     .typewriter h1 {
-        font-size: 32px;
-        width: 103%;
+        font-size: 35px;
+        width: 78%;
     }
 
     .home-intro {
         margin-top: 45px;
     }
 
-
-    /*deneme*/
     .navbar-nav {
         display: contents;
     }
@@ -798,15 +742,15 @@ figure {
 }
 
 @media only screen and (min-width: 900px) {
-     .background-img {
+    .background-img {
         background: url("./page1.png");
-    } 
+    }
 }
 
 @media only screen and (min-width: 1150px) {
     .background-img {
-       background: url("./5744543.png");
-   } 
+        background: url("./5744543.png");
+    }
 }
 
 
@@ -825,15 +769,9 @@ figure {
     width: 95%;
 }
 
-.css-wb57ya-MuiFormControl-root-MuiTextField-root{
+.css-wb57ya-MuiFormControl-root-MuiTextField-root {
     margin-top: 20px !important;
 }
-
-/* 
-.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root{
-    left: 60px !important;
-} */
-
 
 .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
     width: 100%;
@@ -910,16 +848,16 @@ figure {
     justify-content: space-between;
     align-items: center;
     padding: 20px 100px;
-    /* background-image: url(/static/media/page2.7f846179.png); */
     color: #0755b2;
     background-color: #000000;
     width: 101vw;
 }
 
-.social-media-icon{
+.social-media-icon {
     display: flex;
     justify-content: end;
 }
+
 /*scroll*/
 
 .scrollTop {
@@ -952,14 +890,14 @@ figure {
     }
 }
 
-.effect{
+.effect {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 19px;
 }
 
-.varrius a{
+.varrius a {
     font-size: 25px;
     margin: 10px;
     padding: 10px;
@@ -967,14 +905,14 @@ figure {
     color: white;
 }
 
-.varrius a:hover{
+.varrius a:hover {
     font-size: 28px;
     border: 1px dashed white;
     padding: 10px;
     border-radius: 50px;
 }
 
-.about h3{
+.about h3 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -984,7 +922,7 @@ figure {
 
 /*myskill*/
 
-.myskill-charts{
+.myskill-charts {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -992,7 +930,7 @@ figure {
     margin: 0 auto;
 }
 
-.myskill{
+.myskill {
     display: block;
     justify-content: center;
     padding: 4%;
@@ -1001,6 +939,6 @@ figure {
     padding-top: 70px;
     padding-bottom: 70px;
     margin-bottom: auto;
-    height: 100%;
-    width: 102%;
+    height: auto;
+    width: 102vw;
 }

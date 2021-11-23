@@ -26,7 +26,7 @@ export default function Contact() {
   return (
     <>
       <div className='contact'>
-        <h1 className="contact-h1">Contact Us</h1>
+        <h1 className="contact-h1" id="Contact">Contact Us</h1>
         <div className='row'>
           <div className='col-1 col-sm-2 col-md-3 col-lg-3 col-xl-3'></div>
           <div className='col-10 col-sm-8 col-md-6 col-lg-6 col-xl-6'>

@@ -20,16 +20,14 @@ export default function About() {
             I explained in detail in the "My Projects" section. After successfully completing the training, I will join
             the Şekerbank team.
           </p>
-          <h3>If you want to follow me<br/></h3>
+          <h3>If you want to follow me<br /></h3>
           <div className="effect varrius">
             <div className="social-buttons">
-              <a href="#" className="in" title="Join us on Twitter"><Icon className="linkedin" aria-hidden="true"></Icon></a>
-              <a href="#" className="tw" title="Join us on Linked In"><Icon className="twitter" aria-hidden="true"></Icon></a>
-              <a href="#" className="ggithub" title="Join us on Linked In"><Icon className="github" aria-hidden="true"></Icon></a>
-              
+              <a href="https://www.linkedin.com/in/hilal-buyukgullu/" target={"_blank"} className="in" title="Join us on Twitter"><Icon className="linkedin" aria-hidden="true"></Icon></a>
+              <a href="https://www.instagram.com/hilalbuyukgullu/" target={"_blank"} className="tw" title="Join us on Instagram In"><Icon className="instagram" aria-hidden="true"></Icon></a>
+              <a href="https://github.com/hilalbuyukgullu" target={"_blank"} className="ggithub" title="Join us on Github In"><Icon className="github" aria-hidden="true"></Icon></a>
             </div>
           </div>
-
         </div>
       </div>
     </>

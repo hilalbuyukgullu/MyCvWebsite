@@ -1,15 +1,10 @@
-import { Button } from '@mui/material'
-import { Link } from 'react-router-dom'
 import { Icon } from 'semantic-ui-react'
 import Navbar from './Navbar'
 import person from "./person.png"
 
 /*svg button*/
 
-import ButtonUnstyled, {
-  ButtonUnstyledProps,
-  buttonUnstyledClasses,
-} from '@mui/core/ButtonUnstyled';
+import ButtonUnstyled, { ButtonUnstyledProps, buttonUnstyledClasses, } from '@mui/core/ButtonUnstyled';
 import { styled, Theme } from '@mui/system';
 import React from 'react'
 
@@ -34,19 +29,16 @@ const CustomButtonRoot = styled(ButtonRoot)(
   ({ theme }: { theme: Theme }) => `
   overflow: visible;
   cursor: pointer;
-  --main-color: ${
-    theme.palette.mode === 'light' ? 'rgb(25,118,210)' : 'rgb(144,202,249)'
-  };
-  --hover-color: ${
-    theme.palette.mode === 'light'
+  --main-color: ${theme.palette.mode === 'light' ? 'rgb(25,118,210)' : 'rgb(144,202,249)'
+    };
+  --hover-color: ${theme.palette.mode === 'light'
       ? '#ffffff'
       : '#ffffff'
-  };
-  --active-color: ${
-    theme.palette.mode === 'light'
+    };
+  --active-color: ${theme.palette.mode === 'light'
       ? '#ffffff'
       : '#ffffff'
-  };
+    };
 
   & polygon {
     fill: transparent;
@@ -131,13 +123,13 @@ export default function Header() {
           <div className="home-intro-text typewriter">
             <h1> Who is Hilal?</h1>
             <p>Hello, I'm a Junior Frontend developer who is just at the beginning of the road. Welcome to my personal blog, which I created to introduce myself and give a little information about my projects. If you want to reach me, I leave my e-mail address.</p>
-            <Link to="">
+            <a href="mailto:hilal.buyukgullu@gmail.com" target={"_blank"}>
               <div className="intro-mailbox">
-              <SvgButton className='mail-button'>
-              <Icon className='color-blue' name='mail'/> 
-                Contact Me</SvgButton>
+                <SvgButton className='mail-button'>
+                  <Icon className='color-blue' name='mail' />
+                  Contact Me</SvgButton>
               </div>
-              </Link>
+            </a>
           </div>
           <div>
             <img src={person} className="intro-img" alt="person"></img>
