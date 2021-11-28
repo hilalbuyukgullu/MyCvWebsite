@@ -104,7 +104,9 @@ body {
 @import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Comic+Neue&family=Dancing+Script&family=Roboto:wght@900&display=swap');
 
 i.icon {
-    margin-bottom: 12px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
 }
 
@@ -616,10 +618,17 @@ figure {
 
 @media only screen and (max-width: 1025px) {
 
+    .myskill-charts {
+        width: 104%;
+    }
     .intro-img {
         width: 85%;
         margin-bottom: 50px;
     }
+
+    .scrollTop {
+        width: 50px;
+    }   
 
     .background-img {
         width: 102%;
@@ -763,6 +772,10 @@ figure {
     width: 101vw;
 }
 
+.css-feqhe6{
+    margin-top:15px !important;
+}
+
 .css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
     display: block !important;
     margin: 14px !important;
@@ -817,6 +830,8 @@ figure {
     box-shadow: 1px 0px 8px #c1c1c1;
     padding: 20px;
     background-color: #ffffff;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .send-button {
@@ -898,17 +913,20 @@ figure {
 }
 
 .varrius a {
+    text-align: center;
     font-size: 25px;
-    margin: 10px;
+    margin: 3px;
     padding: 10px;
-    transition: border 500ms, font-size 600ms;
+    transition: border 500ms;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .varrius a:hover {
-    font-size: 28px;
     border: 1px dashed white;
-    padding: 10px;
+    margin: 2px;
     border-radius: 50px;
 }
 

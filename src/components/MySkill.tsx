@@ -4,6 +4,7 @@ const data = {
   labels: ['ReactJS', 'Typescript', 'Javascript', 'Html', 'Sass'],
   datasets: [
     {
+      label: 'Skill',
       data: [70, 70, 90, 100, 80],
       backgroundColor: [
         'rgba(255, 99, 132, 1)',
